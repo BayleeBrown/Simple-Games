@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color:#222222">
+      <a-box 
+        color="red" 
+        position="0 2 -5"
+        rotation="30 60 30"
+        scale="2 1 2"></a-box>
+      <!-- Change the code below: -->
+     <a-cylinder
+      color = "pink"
+      position="0 3 -5.25"
+      rotation ="30 60 30"
+      scale = ".30 .15 .30"
+     ></a-cylinder>
+     <a-cylinder
+      color = "pink"
+      position="-0.70 2.5 -4.6"
+      rotation ="30 60 30"
+      scale = ".30 .15 .30"
+     ></a-cylinder>
+     <a-cylinder
+      color = "pink"
+      position=".90 2.4 -4.6"
+      rotation ="30 60 30"
+      scale = ".30 .15 .30"
+     ></a-cylinder>
+    <a-cylinder
+      color = "pink"
+      position=".15 1.9 -4"
+      rotation ="30 60 30"
+      scale = ".30 .15 .30"
+     ></a-cylinder>
+    </a-scene>
+  </body>
+</html>
